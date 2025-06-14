@@ -9,7 +9,7 @@ export const signupHandler = async (
 ) => {
   try {
     console.log(username, number, email, password, setAlert, "sssssssssssssss");
-    const data = await axios.post("http://localhost:3500/api/auth/register", {
+    const data = await axios.post("https://breeze-travel-u1pm.onrender.com/api/auth/register", {
       username: username,
       number: number,
       email: email,
